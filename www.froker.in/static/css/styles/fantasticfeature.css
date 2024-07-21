@@ -1,0 +1,211 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    overflow-x: hidden;
+}
+
+.video1 {
+    width: 22rem;
+}
+
+.box1row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2col {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.black-logo-frokerr-1-2-2-1 {
+    align-self: left;
+    padding-left: 3%;
+}
+
+.froker-app-comes-inbuilt-with-fantastic-features-span {
+    color: #f76f32;
+    font-family: "GilroySemiBold-☞", sans-serif;
+    font-size: 3.6rem;
+    line-height: 4rem;
+    font-weight: 545;
+    flex-wrap: nowrap;
+}
+
+.froker-app-comes-inbuilt-with-fantastic-features-span2 {
+    color: #3d3d3d;
+    font-family: "GilroyMedium-☞", sans-serif;
+    font-size: 3.6rem;
+    line-height: 4rem;
+    font-weight: 545;
+}
+
+.froker-app-comes-inbuilt-with-fantastic-features-span3 {
+    color: #f76f32;
+    font-family: "GilroySemiBold-☞", sans-serif;
+    font-size: 3.6rem;
+    line-height: 4rem;
+    font-weight: 545;
+}
+
+:root {
+    --marquee-width: 52vw;
+    --marquee-height: auto;
+    --marquee-elements: 4;
+    --marquee-elements-displayed: 3.5;
+    --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
+    --marquee-animation-duration: calc(var(--marquee-elements) * 4s);
+}
+
+.marquee {
+    padding-top: 20px;
+    width: var(--marquee-width);
+    height: var(--marquee-height);
+    color: #eee;
+    overflow: hidden;
+    position: relative;
+}
+
+.marquee:before,
+.marquee:after {
+    position: absolute;
+    top: 0;
+    width: 10rem;
+    height: 100%;
+}
+
+.marquee-content {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    animation: scrolling var(--marquee-animation-duration) linear infinite;
+}
+
+.froker-app-comes-inbuilt-with-fantastic-features {
+    align-items: flex-start;
+    margin-top: 10px;
+    width: 98%;
+}
+
+.marquee-content:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-1 * var(--marquee-element-width) * var(--marquee-elements)));
+    }
+}
+
+.marquee-content li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: var(--marquee-element-width);
+    max-height: 100%;
+    white-space: nowrap;
+}
+
+.marquee-content li img {
+    width: 92%;
+}
+
+@media only screen and (min-width: 901px) {
+    .parent {
+        display: flex;
+        justify-content: center;
+        object-fit: contain;
+        width: 100%;
+        height: auto;
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 900px) {
+    .box1row {
+        width: 40%;
+    }
+    .video1 {
+        width: 18rem
+    }
+    .froker-app-comes-inbuilt-with-fantastic-features {
+        align-items: flex-start;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .froker-app-comes-inbuilt-with-fantastic-features-span {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .froker-app-comes-inbuilt-with-fantastic-features-span2 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .froker-app-comes-inbuilt-with-fantastic-features-span3 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .black-logo-frokerr-1-2-2-1 {
+        width: 30%;
+    }
+    :root {
+        --marquee-width: 90vw;
+        --marquee-height: auto;
+        --marquee-elements-displayed: 3;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .video1 {
+        width: 18rem
+    }
+    .parent {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box2col {
+        width: 100%;
+        padding-top: 1rem;
+        margin-top: 5%;
+    }
+    .froker-app-comes-inbuilt-with-fantastic-features {
+        align-items: flex-start;
+        margin-top: 10px;
+        width: 100%;
+        padding-left: 1rem;
+    }
+    .froker-app-comes-inbuilt-with-fantastic-features-span {
+        font-size: 2.2rem;
+        line-height: 2.4rem;
+    }
+    .froker-app-comes-inbuilt-with-fantastic-features-span2 {
+        font-size: 2.2rem;
+        line-height: 2.4rem;
+    }
+    .froker-app-comes-inbuilt-with-fantastic-features-span3 {
+        font-size: 2.2rem;
+        line-height: 2.4rem;
+    }
+    .black-logo-frokerr-1-2-2-1 {
+        width: 30%;
+    }
+    :root {
+        --marquee-width: 100vw;
+        --marquee-height: auto;
+        --marquee-elements-displayed: 2.5;
+    }
+}

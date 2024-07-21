@@ -1,0 +1,27 @@
+.maximize-earning,
+.effortless-marketing {
+    opacity: 0;
+    /* Initially hide the text */
+    animation: slide-up 4s forwards infinite;
+    /* Apply the slide-up animation */
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(100%);
+        /* Start from the bottom */
+        opacity: 0;
+        /* Start with opacity 0 */
+    }
+    to {
+        transform: translateY(0);
+        /* Move to its original position */
+        opacity: 1;
+        /* Fully visible */
+    }
+}
+
+.effortless-marketing {
+    animation-delay: 4s;
+    /* Add a delay for the second text */
+}

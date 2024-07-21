@@ -1,0 +1,450 @@
+.opportunity {
+    background-image: url('https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1706003362/website/horr6s9en9pdsnw1ntlg.jpg');
+    background-size: cover;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0 0 0.5rem 0;
+    width: auto;
+    height: auto;
+    position: relative;
+    flex-direction: column;
+    align-content: center;
+}
+
+.adjust {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.opportunity-for-froker-s-creator {
+    text-align: center;
+    font-family: "-", sans-serif;
+    position: relative;
+    padding-top: 10%;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+.opportunity-for-froker-s-creator-span {
+    text-align: center;
+    color: #ffffff;
+    font-family: "GilroySemiBold-☞", sans-serif;
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.opportunity-for-froker-s-creator-span2 {
+    text-align: center;
+    color: #f76f32;
+    font-family: "GilroyBold-☞", sans-serif;
+    font-size: 4rem;
+    line-height: 5rem;
+    font-weight: 550;
+}
+
+.your-subject-matter-expert-seamlessly-connecting-customers-with-merchants-by-catering-to-the-unique-tastes-of-each-user {
+    color: #ffffff;
+    text-align: center;
+    font-family: "GilroyMedium-☞", sans-serif;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    font-weight: 500;
+    position: relative;
+    flex-wrap: wrap;
+    width: auto;
+    padding-top: 1%;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+    padding-bottom: 10%;
+}
+
+.one,
+.two,
+.thre {
+    background: #ffffff;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: transparent;
+    width: 455px;
+    height: 455px;
+    position: relative;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    contain: content;
+}
+
+._11-1 {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.hyperlocal-sme-s {
+    margin-top: 10px;
+    text-align: center;
+    font-family: "-", sans-serif;
+    font-size: 24px;
+    line-height: 44px;
+    font-weight: 400;
+    position: relative;
+}
+
+.hyperlocal-sme-s-span {
+    color: #3d3d3d;
+    font-family: "GilroyMedium-☞", sans-serif;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.hyperlocal-sme-s-span2 {
+    color: #f76f32;
+    font-family: "GilroyBold-☞", sans-serif;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.centerpe {
+    display: block;
+    align-items: center;
+}
+
+.frokers-are-experts-of-various-domains-and-operate-hyperlocally-to-generate-sales-through-content {
+    color: rgba(98, 98, 98, 0.75);
+    text-align: center;
+    font-family: "GilroyMedium-☞", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.your-subject-matter-expert-mobile {
+    color: #ffffff;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: "GilroyMedium-☞", sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+    position: relative;
+    width: 96%;
+    padding-top: 1%;
+}
+
+@media only screen and (min-width: 913px) {
+    .your-subject-matter-expert-mobile {
+        color: #ffffff;
+        text-align: center;
+        flex-wrap: wrap;
+        font-family: "GilroyMedium-☞", sans-serif;
+        font-size: 20px;
+        line-height: 34px;
+        font-weight: 400;
+        position: relative;
+        width: 96%;
+        padding-top: 1%;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .adjust {
+        gap: 10px;
+        align-items: center;
+        margin: 0.2rem;
+    }
+    .one {
+        padding: 10px;
+    }
+    .hyperlocal-sme-s {
+        font-size: 14px;
+    }
+    .opportunity-for-froker-s-creator,
+    .opportunity-for-froker-s-creator * {
+        box-sizing: border-box;
+    }
+    .opportunity-for-froker-s-creator {
+        font-family: "-", sans-serif;
+        size-adjust: 25px;
+        line-height: 52px;
+        font-weight: 400;
+        position: relative;
+        padding-top: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .opportunity-for-froker-s-creator-span {
+        text-align: center;
+        color: #ffffff;
+        font-family: "GilroySemiBold-☞", sans-serif;
+        font-size: 35px;
+        line-height: 52px;
+        font-weight: 400;
+        flex-wrap: wrap;
+    }
+    .opportunity-for-froker-s-creator-span2 {
+        text-align: center;
+        color: #f76f32;
+        font-family: "GilroyBold-☞", sans-serif;
+        font-size: 35px;
+        line-height: 52px;
+        font-weight: 400;
+        flex-wrap: wrap;
+    }
+    .your-subject-matter-expert-seamlessly-connecting-customers-with-merchants-by-catering-to-the-unique-tastes-of-each-user,
+    .your-subject-matter-expert-seamlessly-connecting-customers-with-merchants-by-catering-to-the-unique-tastes-of-each-user * {
+        box-sizing: border-box;
+    }
+    .your-subject-matter-expert-seamlessly-connecting-customers-with-merchants-by-catering-to-the-unique-tastes-of-each-user {
+        color: #ffffff;
+        text-align: center;
+        flex-wrap: wrap;
+        font-family: "GilroyMedium-☞", sans-serif;
+        font-size: 20px;
+        line-height: 34px;
+        font-weight: 400;
+        position: relative;
+        width: 100%;
+        padding-top: 1%;
+        display: none;
+    }
+    .your-subject-matter-expert-mobile {
+        color: #ffffff;
+        text-align: center;
+        flex-wrap: wrap;
+        font-family: "GilroyMedium-☞", sans-serif;
+        font-size: 20px;
+        line-height: 34px;
+        font-weight: 400;
+        position: relative;
+        width: 96%;
+        padding-top: 1%;
+    }
+    .three {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        padding-bottom: 10%;
+    }
+    .one {
+        flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .frokers-are-experts-of-various-domains-and-operate-hyperlocally-to-generate-sales-through-content {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .adjust {
+        gap: 20px;
+        align-items: center;
+        margin: 0.2rem;
+    }
+    .adjust {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex-wrap: nowrap;
+    }
+    .one {
+        padding: 10px
+    }
+    .hyperlocal-sme-s {
+        font-size: 14px;
+    }
+    .opportunity-for-froker-s-creator {
+        font-family: "-", sans-serif;
+        size-adjust: 25px;
+        line-height: 52px;
+        font-weight: 400;
+        position: relative;
+        padding-top: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-top: 5rem;
+    }
+    .opportunity-for-froker-s-creator-span {
+        text-align: center;
+        color: #ffffff;
+        font-family: "GilroySemiBold-☞", sans-serif;
+        font-size: 45px;
+        line-height: 52px;
+        font-weight: 400;
+        flex-wrap: wrap;
+    }
+    .opportunity-for-froker-s-creator-span2 {
+        text-align: center;
+        color: #f76f32;
+        font-family: "GilroyBold-☞", sans-serif;
+        font-size: 45px;
+        line-height: 52px;
+        font-weight: 400;
+        flex-wrap: wrap;
+    }
+    .your-subject-matter-expert-seamlessly-connecting-customers-with-merchants-by-catering-to-the-unique-tastes-of-each-user {
+        color: #ffffff;
+        text-align: center;
+        flex-wrap: wrap;
+        font-family: "GilroyMedium-☞", sans-serif;
+        font-size: 1rem;
+        line-height: 34px;
+        font-weight: 400;
+        position: relative;
+        width: 100%;
+        padding-top: 1%;
+        display: none;
+    }
+    .your-subject-matter-expert-mobile {
+        color: #ffffff;
+        text-align: center;
+        flex-wrap: wrap;
+        font-family: "GilroyMedium-☞", sans-serif;
+        font-size: 1rem;
+        line-height: 34px;
+        font-weight: 400;
+        position: relative;
+        width: 96%;
+        padding-top: 1%;
+    }
+    .three {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        padding-bottom: 10%;
+    }
+    .one {
+        flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .frokers-are-experts-of-various-domains-and-operate-hyperlocally-to-generate-sales-through-content {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .adjust {
+        gap: 10px;
+        align-items: center;
+        margin: 0.2rem;
+    }
+    .one {
+        padding: 10px;
+    }
+    .hyperlocal-sme-s {
+        font-size: 14px;
+    }
+    .opportunity-for-froker-s-creator {
+        font-family: "-", sans-serif;
+        font-weight: 500;
+        position: relative;
+        padding-top: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .opportunity-for-froker-s-creator-span {
+        text-align: center;
+        color: #ffffff;
+        font-family: "GilroySemiBold-☞", sans-serif;
+        font-size: 2.8rem;
+        /* Adjusted font size */
+        line-height: 1rem;
+        font-weight: 500;
+        flex-wrap: wrap;
+    }
+    .opportunity-for-froker-s-creator-span2 {
+        text-align: center;
+        color: #f76f32;
+        font-family: "GilroyBold-☞", sans-serif;
+        font-size: 2.6rem;
+        /* Adjusted font size */
+        line-height: 1rem;
+        font-weight: 500;
+        flex-wrap: wrap;
+    }
+    .your-subject-matter-expert-seamlessly-connecting-customers-with-merchants-by-catering-to-the-unique-tastes-of-each-user {
+        color: #ffffff;
+        text-align: center;
+        flex-wrap: wrap;
+        font-family: "GilroyMedium-☞", sans-serif;
+        font-size: 1rem;
+        line-height: 1.8rem;
+        font-weight: 300;
+        position: relative;
+        width: 80%;
+        padding-top: 1%;
+        display: none;
+    }
+    .your-subject-matter-expert-mobile {
+        color: #ffffff;
+        text-align: center;
+        flex-wrap: wrap;
+        font-family: "GilroyMedium-☞", sans-serif;
+        font-size: 1rem;
+        line-height: 1.8rem;
+        font-weight: 300;
+        position: relative;
+        width: 80%;
+        padding-top: 1%;
+    }
+    .three {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        padding-bottom: 10%;
+    }
+    .one {
+        flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .frokers-are-experts-of-various-domains-and-operate-hyperlocally-to-generate-sales-through-content {
+        font-size: 1rem;
+        line-height: 1.4rem;
+        font-weight: 400;
+    }
+    .hyperlocal-sme-s-span {
+        font-size: 1.6rem;
+        line-height: 1rem;
+    }
+    .hyperlocal-sme-s {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+}

@@ -1,0 +1,282 @@
+/* #froker-merchants{
+  margin-top: 8%;
+  margin:20px;
+} */
+
+.all {
+    margin: 20px;
+}
+
+.opportunity-for-froker-s-merchant {
+    color: #f76f32;
+    text-align: center;
+    font-family: "GilroyBold-☞", sans-serif;
+    font-size: 3rem;
+    line-height: 2rem;
+    font-weight: 600;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 6rem;
+}
+
+.we-offer-merchants-a-platform-that-transcends {
+    color: #626262;
+    text-align: center;
+    font-family: "GilroyMedium-☞", sans-serif;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+    position: relative;
+    width: auto;
+    box-sizing: border-box;
+    margin: 2rem auto;
+}
+
+.lastbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.lastone {
+    background: #e7ea47;
+    border-radius: 20px;
+    /* max-width: 100%; */
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+}
+
+._17-1,
+._18-1,
+._19-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.minimum-order-commission {
+    text-align: left;
+    font-family: "-", sans-serif;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 2rem;
+    align-items: left;
+    padding-left: 1rem;
+}
+
+.minimum-order-commission-span {
+    color: #3d3d3d;
+    font-family: "GilroyMedium-☞", sans-serif;
+    font-size: 1.8rem;
+    /* line-height: 3rem; */
+    font-weight: 400;
+}
+
+.minimum-order-commission-span2 {
+    color: #ff6b00;
+    font-family: "GilroyBold-☞", sans-serif;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+.our-model-charges-minimum-order-commissions,
+.-significantly-lowering-selling-costs-and-boosting-profitability {
+    color: #626262;
+    text-align: left;
+    font-family: "GilroyBold-☞", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    position: relative;
+}
+
+.lasttwo {
+    background: #02ab97;
+    border-radius: 20px;
+    /* max-width: 100%; */
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.enhanced-brand-building {
+    text-align: left;
+    font-family: "-", sans-serif;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 2rem;
+}
+
+.enhanced-brand-building-span {
+    color: #ffe500;
+    font-family: "GilroyBold-☞", sans-serif;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+.enhanced-brand-building-span2 {
+    color: #ffffff;
+    font-family: "GilroyMedium-☞", sans-serif;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+.collaborating-with-frokers-opens-new-channels-for,
+.brand-development-and-expanding-audience-reach {
+    color: #ffffff;
+    text-align: left;
+    font-family: "GilroyMedium-☞", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 0px;
+}
+
+.lastthree {
+    background: #6e8a85;
+    border-radius: 20px;
+    /* max-width: 100%; */
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ai-driven-saa-s-platform {
+    text-align: left;
+    font-family: "GilroyBold-☞", sans-serif;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 2rem;
+}
+
+.ai-driven-saa-s-platform-span {
+    color: #ffcc49;
+    font-family: "GilroyBold-☞", sans-serif;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+.ai-driven-saa-s-platform-span3 {
+    color: #ffffff;
+    font-family: "GilroyBold-☞", sans-serif;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+.froker-s-ai-driven-saa-s-platform-is-a-game-changer-for-merchants {
+    color: #ffffff;
+    text-align: left;
+    font-family: "GilroyMedium-☞", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.offering-a-sophisticated-suite-of-tools-powered-by-generative-ai {
+    color: #ffffff;
+    text-align: left;
+    font-family: "GilroyMedium-☞", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.makeb {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .opportunity-for-froker-s-merchant {
+        font-size: 36px;
+        line-height: 42px;
+        /* margin-top: 40px; */
+    }
+    .we-offer-merchants-a-platform-that-transcends,
+    .we-offer-merchants-a-platform-that-transcends {
+        font-size: 1rem;
+        line-height: 2rem;
+        margin: 15px auto;
+    }
+    .lastbox {
+        gap: 15px;
+    }
+    .lastone,
+    .lasttwo,
+    .lastthree {
+        border-radius: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .opportunity-for-froker-s-merchant {
+        font-size: 2.6rem;
+        font-weight: 600;
+        line-height: 3.2rem;
+        /* margin-top:; */
+    }
+    #seventhsec {
+        margin: 30px;
+    }
+    .we-offer-merchants-a-platform-that-transcends {
+        font-size: 1rem;
+        line-height: 2rem;
+        margin: 10px auto;
+    }
+    .lastbox {
+        gap: 10px;
+    }
+    .lastone,
+    .lasttwo,
+    .lastthree {
+        border-radius: 20px;
+    }
+    .lasttwo {
+        flex-direction: column;
+        align-items: center;
+    }
+    .make {
+        text-align: center;
+        padding: 15px;
+    }
+    .minimum-order-commission-span,
+    .minimum-order-commission-span2,
+    .enhanced-brand-building-span,
+    .enhanced-brand-building-span2,
+    .ai-driven-saa-s-platform-span,
+    .ai-driven-saa-s-platform-span3 {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    .makeb {
+        padding-left: 10px;
+    }
+}
